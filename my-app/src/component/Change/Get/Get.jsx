@@ -28,13 +28,11 @@ const Get = () => {
   const changeNameTo = (e) => {
     const name = e.target.value;
     setCurrencyTo(name);
-    console.log(name);
     calculate(valueFrom, name);
   };
 
   const changeValueFrom = (e) => {
     const value = e.target.value;
-    console.log(value);
     setValueFrom(value);
     calculate(value, currencyTo);
   };
