@@ -1,0 +1,17 @@
+.basic {
+  border: 1px solid gray;
+  width: 175px;
+  height: 100px;
+  margin: 0px 15px 0px 15px;
+}
+.nameCurrency {
+  font-weight: 600;
+}
+.colorRed {
+  color: red;
+  font-size: 24px;
+}
+.colorGreen {
+  color: green;
+  font-size: 24px;
+}
